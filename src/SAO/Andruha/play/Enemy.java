@@ -22,7 +22,7 @@ public class Enemy implements Mortal{
             System.out.println(getName()+" победили");
         }else {
         this.health-=Math.min(damage,health);
-        System.out.println(name+" получил урон "+damage+". Осталось "+health);}
+        System.out.println(name+" получил урон "+damage+". Осталось "+health+ "HP");}
 
     }
 
