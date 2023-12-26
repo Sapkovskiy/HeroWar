@@ -1,6 +1,8 @@
 package SAO.Andruha.play;
 
-public class Archer extends Hero{
+import SAO.Andruha.Weapons.RangeWeapon;
+
+public class Archer<T extends RangeWeapon> extends Hero<T>{
     private Pet pet;
 
     public Archer(String name,int damage) {
